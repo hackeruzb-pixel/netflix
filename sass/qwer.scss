@@ -1,0 +1,728 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 375px;
+  height: 44px;
+  background: rgb(0, 0, 0);
+  &__display {
+    display: flex;
+    &__time {
+      padding-left: 21px;
+      padding-top: 13px;
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Text;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+    &__connect {
+      padding-left: 219px;
+      padding-top: 17px;
+    }
+
+    &__wifi {
+      padding-left: 5px;
+      padding-top: 17px;
+    }
+
+    &__battery {
+      padding-top: 17px;
+      padding-left: 5px;
+    }
+  }
+}
+
+.section {
+  width: 375px;
+  height: 1456px;
+  background: rgb(0, 0, 0);
+  &__display {
+    display: flex;
+    &__qnrq {
+      padding-left: 15px;
+      margin-top: 11px;
+    }
+
+    &__txt {
+      margin-top: 13px;
+      margin-left: 7px;
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Display;
+      font-size: 16.91px;
+      font-weight: 700;
+      line-height: 12.64px;
+      letter-spacing: -0.05px;
+    }
+  }
+
+  &__flex {
+    margin-top: 21px;
+    display: flex;
+    width: 375px;
+    height: 65px;
+    background: rgb(66, 66, 66);
+    &__img {
+      margin-top: 5px;
+      margin-left: 15px;
+      width: 113px;
+      height: 55px;
+    }
+  }
+
+  &__box {
+    padding-top: 9px;
+    padding-left: 30px;
+
+    &__txt {
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Display;
+      font-size: 13.72px;
+      font-weight: 500;
+      line-height: 10.26px;
+      letter-spacing: -0.04px;
+    }
+
+    &__txt-two {
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 13.72px;
+      font-weight: 500;
+      line-height: 10.26px;
+      letter-spacing: -0.04px;
+      padding-top: 7px;
+    }
+
+    &__txt-three {
+      color: rgba(255, 255, 255, 0.48);
+      font-family: SF Pro Display;
+      font-size: 10.51px;
+      font-weight: 500;
+      line-height: 10.26px;
+      letter-spacing: -0.04px;
+      padding-top: 7px;
+    }
+  }
+
+  &__flextwo {
+    display: flex;
+    width: 375px;
+    height: 65px;
+    background: rgb(66, 66, 66);
+    &__img {
+      margin-top: 5px;
+      margin-left: 15px;
+      width: 113px;
+      height: 55px;
+    }
+  }
+
+  &__box {
+    padding-top: 9px;
+    padding-left: 30px;
+
+    &__txt {
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Display;
+      font-size: 13.72px;
+      font-weight: 500;
+      line-height: 10.26px;
+      letter-spacing: -0.04px;
+    }
+
+    &__txt-two {
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 13.72px;
+      font-weight: 500;
+      line-height: 10.26px;
+      letter-spacing: -0.04px;
+      padding-top: 7px;
+    }
+
+    &__txt-three {
+      color: rgba(255, 255, 255, 0.48);
+      font-family: SF Pro Display;
+      font-size: 10.51px;
+      font-weight: 500;
+      line-height: 10.26px;
+      letter-spacing: -0.04px;
+      padding-top: 7px;
+    }
+  }
+
+  &__two {
+    margin-top: 25px;
+    &__img {
+      width: 375px;
+      height: 195px;
+    }
+
+    &__display {
+      display: flex;
+      &__sdf {
+        &__zvan {
+          padding-top: 20px;
+          padding-left: 242px;
+        }
+
+        &__txt {
+          padding-left: 227px;
+          padding-top: 7px;
+          color: rgba(255, 255, 255, 0.83);
+          font-family: SF Pro Display;
+          font-size: 11.13px;
+          font-weight: 400;
+          line-height: 8.32px;
+          letter-spacing: -0.03px;
+        }
+      }
+      &__asd {
+        &__zvantwo {
+          padding-top: 23px;
+          padding-left: 56px;
+        }
+
+        &__txt {
+          padding-left: 50px;
+          padding-top: 10px;
+          color: rgba(255, 255, 255, 0.83);
+          font-family: SF Pro Display;
+          font-size: 11.13px;
+          font-weight: 400;
+          line-height: 8.32px;
+          letter-spacing: -0.03px;
+        }
+      }
+    }
+
+    &__sea {
+      margin-left: 12px;
+      margin-top: 13px;
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 11.4px;
+      font-weight: 400;
+      line-height: 8.52px;
+      letter-spacing: -0.03px;
+    }
+
+    &__cast {
+      margin-top: 13px;
+      margin-left: 12px;
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Display;
+      font-size: 18.66px;
+      font-weight: 700;
+      line-height: 13.95px;
+      letter-spacing: -0.05px;
+    }
+
+    &__lorem {
+      margin-top: 12px;
+      margin-left: 12px;
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 11.14px;
+      font-weight: 400;
+      line-height: 14.17px;
+      letter-spacing: -0.03px;
+    }
+
+    &__disple {
+      display: flex;
+      &__txt {
+        margin-left: 12px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txttwo {
+        margin-left: 17px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtthree {
+        margin-left: 17px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtfour {
+        margin-left: 16px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtfive {
+        margin-left: 15px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtsix {
+        margin-left: 18px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+    }
+
+    &__backimg {
+      margin-top: 17px;
+      width: 375px;
+      height: 195px;
+      background-image: url("../images/musder.svg");
+
+      &__dispdf {
+        padding-top: 200px;
+        display: flex;
+        &__sdf {
+          &__zvan {
+            padding-top: 20px;
+            padding-left: 242px;
+          }
+
+          &__txt {
+            padding-left: 227px;
+            padding-top: 7px;
+            color: rgba(255, 255, 255, 0.83);
+            font-family: SF Pro Display;
+            font-size: 11.13px;
+            font-weight: 400;
+            line-height: 8.32px;
+            letter-spacing: -0.03px;
+          }
+        }
+        &__asd {
+          &__zvantwo {
+            padding-top: 23px;
+            padding-left: 56px;
+          }
+
+          &__txt {
+            padding-left: 50px;
+            padding-top: 10px;
+            color: rgba(255, 255, 255, 0.83);
+            font-family: SF Pro Display;
+            font-size: 11.13px;
+            font-weight: 400;
+            line-height: 8.32px;
+            letter-spacing: -0.03px;
+          }
+        }
+      }
+    }
+
+    &__posit {
+      position: fixed;
+
+      &__bord {
+        margin-top: -120px;
+        display: flex;
+        box-sizing: border-box;
+        width: 375px;
+        height: 48px;
+        background: rgb(18, 18, 18);
+
+        &__one {
+          padding-top: 8px;
+          padding-left: 28px;
+          padding-bottom: 21px;
+          &__txt {
+            padding-left: 3px;
+            margin-top: -13px;
+            color: rgb(140, 135, 135);
+            font-family: SF Pro Display;
+            font-size: 8.2px;
+            font-weight: 500;
+            line-height: 30.4px;
+            letter-spacing: 0.26px;
+          }
+
+          &__img:hover {
+            height: 30px;
+          }
+        }
+
+        &__two {
+          padding-top: 8px;
+          padding-left: 41px;
+          padding-bottom: 21px;
+
+          &__txt {
+            margin-top: -9px;
+            color: rgb(140, 135, 135);
+            font-family: SF Pro Display;
+            font-size: 8.2px;
+            font-weight: 500;
+            line-height: 30.4px;
+            letter-spacing: 0.26px;
+          }
+
+          &__img:hover {
+            height: 30px;
+          }
+        }
+
+        &__three {
+          padding-top: 8px;
+          margin-left: 52px;
+          // padding-left: 57px;
+          padding-bottom: 21px;
+          &__txt {
+            margin-left: -15px;
+            margin-top: -9px;
+            color: rgb(255, 255, 255);
+            font-family: SF Pro Display;
+            font-size: 8.2px;
+            font-weight: 500;
+            line-height: 30.4px;
+            letter-spacing: 0.26px;
+          }
+
+          &__img:hover {
+            height: 30px;
+          }
+        }
+
+        &__four {
+          padding-top: 8px;
+          padding-left: 52px;
+          padding-bottom: 21px;
+
+          &__txt {
+            margin-left: -10px;
+            margin-top: -9px;
+            color: rgb(140, 135, 135);
+            font-family: SF Pro Display;
+            font-size: 8.2px;
+            font-weight: 500;
+            line-height: 30.4px;
+            letter-spacing: 0.26px;
+          }
+
+          &__img:hover {
+            height: 30px;
+          }
+        }
+
+        &__five {
+          padding-top: 8px;
+          padding-left: 42px;
+          padding-bottom: 21px;
+          &__txt {
+            margin-top: -9px;
+            color: rgb(140, 135, 135);
+            font-family: SF Pro Display;
+            font-size: 8.2px;
+            font-weight: 500;
+            line-height: 30.4px;
+            letter-spacing: 0.26px;
+          }
+
+          &__img:hover {
+            height: 30px;
+          }
+        }
+      }
+      &__ert {
+        width: 375px;
+        height: 31px;
+        background: rgb(0, 0, 0);
+        &__hr {
+          margin-top: 18px;
+          margin-left: 126px;
+          margin-bottom: 9px;
+          width: 121px;
+          height: 4px;
+        }
+      }
+    }
+  }
+
+  &__three {
+    margin-top: 73px;
+    &__sea {
+      margin-left: 12px;
+      margin-top: 13px;
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 11.4px;
+      font-weight: 400;
+      line-height: 8.52px;
+      letter-spacing: -0.03px;
+    }
+
+    &__cast {
+      margin-top: 13px;
+      margin-left: 12px;
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Display;
+      font-size: 18.66px;
+      font-weight: 700;
+      line-height: 13.95px;
+      letter-spacing: -0.05px;
+    }
+
+    &__lorem {
+      margin-top: 12px;
+      margin-left: 12px;
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 11.14px;
+      font-weight: 400;
+      line-height: 14.17px;
+      letter-spacing: -0.03px;
+    }
+
+    &__disple {
+      display: flex;
+      &__txt {
+        margin-left: 12px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txttwo {
+        margin-left: 17px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtthree {
+        margin-left: 17px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtfour {
+        margin-left: 16px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtfive {
+        margin-left: 15px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtsix {
+        margin-left: 18px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+    }
+
+    &__backimg {
+      margin-top: 17px;
+      width: 375px;
+      height: 195px;
+      background-image: url("../images/faster.svg");
+
+      &__dispdf {
+        padding-top: 200px;
+        display: flex;
+        &__sdf {
+          &__zvan {
+            padding-top: 20px;
+            padding-left: 242px;
+          }
+
+          &__txt {
+            padding-left: 227px;
+            padding-top: 7px;
+            color: rgba(255, 255, 255, 0.83);
+            font-family: SF Pro Display;
+            font-size: 11.13px;
+            font-weight: 400;
+            line-height: 8.32px;
+            letter-spacing: -0.03px;
+          }
+        }
+        &__asd {
+          &__zvantwo {
+            padding-top: 23px;
+            padding-left: 56px;
+          }
+
+          &__txt {
+            padding-left: 50px;
+            padding-top: 10px;
+            color: rgba(255, 255, 255, 0.83);
+            font-family: SF Pro Display;
+            font-size: 11.13px;
+            font-weight: 400;
+            line-height: 8.32px;
+            letter-spacing: -0.03px;
+          }
+        }
+      }
+    }
+  }
+
+  &__footer {
+ margin-top: 73px;  
+    &__sea {
+      margin-left: 12px;
+      margin-top: 13px;
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 11.4px;
+      font-weight: 400;
+      line-height: 8.52px;
+      letter-spacing: -0.03px;
+    }
+
+    &__cast {
+      margin-top: 13px;
+      margin-left: 12px;
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Display;
+      font-size: 18.66px;
+      font-weight: 700;
+      line-height: 13.95px;
+      letter-spacing: -0.05px;
+    }
+
+    &__lorem {
+      margin-top: 12px;
+      margin-left: 12px;
+      color: rgba(255, 255, 255, 0.83);
+      font-family: SF Pro Display;
+      font-size: 11.14px;
+      font-weight: 400;
+      line-height: 14.17px;
+      letter-spacing: -0.03px;
+    }
+
+    &__disple {
+      display: flex;
+      &__txt {
+        margin-left: 12px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txttwo {
+        margin-left: 17px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtthree {
+        margin-left: 17px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtfour {
+        margin-left: 16px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtfive {
+        margin-left: 15px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+      &__txtsix {
+        margin-left: 18px;
+        margin-top: 16px;
+        color: rgb(255, 255, 255);
+        font-family: SF Pro Display;
+        font-size: 11.4px;
+        font-weight: 600;
+        line-height: 8.52px;
+        letter-spacing: -0.03px;
+      }
+    }
+  }
+}

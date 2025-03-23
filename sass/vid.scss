@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.netr {
+  width: 375px;
+  height: 736px;
+  background: rgb(0, 0, 0);
+  &__img {
+    margin-top: 288px;
+    margin-left: 84px;
+  }
+  &__display {
+    display: flex;
+    &__time {
+      padding-left: 21px;
+      padding-top: 13px;
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Text;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+    &__connect {
+      padding-left: 219px;
+      padding-top: 17px;
+    }
+
+    &__wifi {
+      padding-left: 5px;
+      padding-top: 17px;
+    }
+
+    &__battery {
+      padding-top: 17px;
+      padding-left: 5px;
+    }
+  }
+}
+
+.header {
+  width: 375px;
+  height: 44px;
+  background: rgb(0, 0, 0);
+
+  &__display {
+    display: flex;
+    &__time {
+      padding-left: 21px;
+      padding-top: 13px;
+      color: rgb(255, 255, 255);
+      font-family: SF Pro Text;
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 20px;
+    }
+
+    &__connect {
+      padding-left: 219px;
+      padding-top: 17px;
+    }
+
+    &__wifi {
+      padding-left: 5px;
+      padding-top: 17px;
+    }
+
+    &__battery {
+      padding-top: 17px;
+      padding-left: 5px;
+    }
+  }
+}
+
+.section {
+  width: 375px;
+  height: 726px;
+  background: rgb(0, 0, 0);
+
+  &__icon {
+    margin-left: 10px;
+    margin-top: -640px;
+    // background-color: aqua;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__iframe {
+    width: 372px;
+    height: 100vh;
+  }
+
+  &__ert {
+    margin-top: -5px;
+    width: 375px;
+    height: 31px;
+    background: rgb(0, 0, 0);
+    &__hr {
+      margin-top: 18px;
+      margin-left: 126px;
+      margin-bottom: 9px;
+      width: 121px;
+      height: 4px;
+    }
+  }
+}

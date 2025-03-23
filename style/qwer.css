@@ -1,0 +1,663 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 375px;
+  height: 44px;
+  background: rgb(0, 0, 0);
+}
+.header__display {
+  display: flex;
+}
+.header__display__time {
+  padding-left: 21px;
+  padding-top: 13px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Text;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.header__display__connect {
+  padding-left: 219px;
+  padding-top: 17px;
+}
+.header__display__wifi {
+  padding-left: 5px;
+  padding-top: 17px;
+}
+.header__display__battery {
+  padding-top: 17px;
+  padding-left: 5px;
+}
+
+.section {
+  width: 375px;
+  height: 1456px;
+  background: rgb(0, 0, 0);
+}
+.section__display {
+  display: flex;
+}
+.section__display__qnrq {
+  padding-left: 15px;
+  margin-top: 11px;
+}
+.section__display__txt {
+  margin-top: 13px;
+  margin-left: 7px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 16.91px;
+  font-weight: 700;
+  line-height: 12.64px;
+  letter-spacing: -0.05px;
+}
+.section__flex {
+  margin-top: 21px;
+  display: flex;
+  width: 375px;
+  height: 65px;
+  background: rgb(66, 66, 66);
+}
+.section__flex__img {
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 113px;
+  height: 55px;
+}
+.section__box {
+  padding-top: 9px;
+  padding-left: 30px;
+}
+.section__box__txt {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 13.72px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+}
+.section__box__txt-two {
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 13.72px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+  padding-top: 7px;
+}
+.section__box__txt-three {
+  color: rgba(255, 255, 255, 0.48);
+  font-family: SF Pro Display;
+  font-size: 10.51px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+  padding-top: 7px;
+}
+.section__flextwo {
+  display: flex;
+  width: 375px;
+  height: 65px;
+  background: rgb(66, 66, 66);
+}
+.section__flextwo__img {
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 113px;
+  height: 55px;
+}
+.section__box {
+  padding-top: 9px;
+  padding-left: 30px;
+}
+.section__box__txt {
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 13.72px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+}
+.section__box__txt-two {
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 13.72px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+  padding-top: 7px;
+}
+.section__box__txt-three {
+  color: rgba(255, 255, 255, 0.48);
+  font-family: SF Pro Display;
+  font-size: 10.51px;
+  font-weight: 500;
+  line-height: 10.26px;
+  letter-spacing: -0.04px;
+  padding-top: 7px;
+}
+.section__two {
+  margin-top: 25px;
+}
+.section__two__img {
+  width: 375px;
+  height: 195px;
+}
+.section__two__display {
+  display: flex;
+}
+.section__two__display__sdf__zvan {
+  padding-top: 20px;
+  padding-left: 242px;
+}
+.section__two__display__sdf__txt {
+  padding-left: 227px;
+  padding-top: 7px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.13px;
+  font-weight: 400;
+  line-height: 8.32px;
+  letter-spacing: -0.03px;
+}
+.section__two__display__asd__zvantwo {
+  padding-top: 23px;
+  padding-left: 56px;
+}
+.section__two__display__asd__txt {
+  padding-left: 50px;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.13px;
+  font-weight: 400;
+  line-height: 8.32px;
+  letter-spacing: -0.03px;
+}
+.section__two__sea {
+  margin-left: 12px;
+  margin-top: 13px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 400;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__two__cast {
+  margin-top: 13px;
+  margin-left: 12px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 18.66px;
+  font-weight: 700;
+  line-height: 13.95px;
+  letter-spacing: -0.05px;
+}
+.section__two__lorem {
+  margin-top: 12px;
+  margin-left: 12px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 14.17px;
+  letter-spacing: -0.03px;
+}
+.section__two__disple {
+  display: flex;
+}
+.section__two__disple__txt {
+  margin-left: 12px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__two__disple__txttwo {
+  margin-left: 17px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__two__disple__txtthree {
+  margin-left: 17px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__two__disple__txtfour {
+  margin-left: 16px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__two__disple__txtfive {
+  margin-left: 15px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__two__disple__txtsix {
+  margin-left: 18px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__two__backimg {
+  margin-top: 17px;
+  width: 375px;
+  height: 195px;
+  background-image: url("../images/musder.svg");
+}
+.section__two__backimg__dispdf {
+  padding-top: 200px;
+  display: flex;
+}
+.section__two__backimg__dispdf__sdf__zvan {
+  padding-top: 20px;
+  padding-left: 242px;
+}
+.section__two__backimg__dispdf__sdf__txt {
+  padding-left: 227px;
+  padding-top: 7px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.13px;
+  font-weight: 400;
+  line-height: 8.32px;
+  letter-spacing: -0.03px;
+}
+.section__two__backimg__dispdf__asd__zvantwo {
+  padding-top: 23px;
+  padding-left: 56px;
+}
+.section__two__backimg__dispdf__asd__txt {
+  padding-left: 50px;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.13px;
+  font-weight: 400;
+  line-height: 8.32px;
+  letter-spacing: -0.03px;
+}
+.section__two__posit {
+  position: fixed;
+}
+.section__two__posit__bord {
+  margin-top: -120px;
+  display: flex;
+  box-sizing: border-box;
+  width: 375px;
+  height: 48px;
+  background: rgb(18, 18, 18);
+}
+.section__two__posit__bord__one {
+  padding-top: 8px;
+  padding-left: 28px;
+  padding-bottom: 21px;
+}
+.section__two__posit__bord__one__txt {
+  padding-left: 3px;
+  margin-top: -13px;
+  color: rgb(140, 135, 135);
+  font-family: SF Pro Display;
+  font-size: 8.2px;
+  font-weight: 500;
+  line-height: 30.4px;
+  letter-spacing: 0.26px;
+}
+.section__two__posit__bord__one__img:hover {
+  height: 30px;
+}
+.section__two__posit__bord__two {
+  padding-top: 8px;
+  padding-left: 41px;
+  padding-bottom: 21px;
+}
+.section__two__posit__bord__two__txt {
+  margin-top: -9px;
+  color: rgb(140, 135, 135);
+  font-family: SF Pro Display;
+  font-size: 8.2px;
+  font-weight: 500;
+  line-height: 30.4px;
+  letter-spacing: 0.26px;
+}
+.section__two__posit__bord__two__img:hover {
+  height: 30px;
+}
+.section__two__posit__bord__three {
+  padding-top: 8px;
+  margin-left: 52px;
+  padding-bottom: 21px;
+}
+.section__two__posit__bord__three__txt {
+  margin-left: -15px;
+  margin-top: -9px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 8.2px;
+  font-weight: 500;
+  line-height: 30.4px;
+  letter-spacing: 0.26px;
+}
+.section__two__posit__bord__three__img:hover {
+  height: 30px;
+}
+.section__two__posit__bord__four {
+  padding-top: 8px;
+  padding-left: 52px;
+  padding-bottom: 21px;
+}
+.section__two__posit__bord__four__txt {
+  margin-left: -10px;
+  margin-top: -9px;
+  color: rgb(140, 135, 135);
+  font-family: SF Pro Display;
+  font-size: 8.2px;
+  font-weight: 500;
+  line-height: 30.4px;
+  letter-spacing: 0.26px;
+}
+.section__two__posit__bord__four__img:hover {
+  height: 30px;
+}
+.section__two__posit__bord__five {
+  padding-top: 8px;
+  padding-left: 42px;
+  padding-bottom: 21px;
+}
+.section__two__posit__bord__five__txt {
+  margin-top: -9px;
+  color: rgb(140, 135, 135);
+  font-family: SF Pro Display;
+  font-size: 8.2px;
+  font-weight: 500;
+  line-height: 30.4px;
+  letter-spacing: 0.26px;
+}
+.section__two__posit__bord__five__img:hover {
+  height: 30px;
+}
+.section__two__posit__ert {
+  width: 375px;
+  height: 31px;
+  background: rgb(0, 0, 0);
+}
+.section__two__posit__ert__hr {
+  margin-top: 18px;
+  margin-left: 126px;
+  margin-bottom: 9px;
+  width: 121px;
+  height: 4px;
+}
+.section__three {
+  margin-top: 73px;
+}
+.section__three__sea {
+  margin-left: 12px;
+  margin-top: 13px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 400;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__three__cast {
+  margin-top: 13px;
+  margin-left: 12px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 18.66px;
+  font-weight: 700;
+  line-height: 13.95px;
+  letter-spacing: -0.05px;
+}
+.section__three__lorem {
+  margin-top: 12px;
+  margin-left: 12px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 14.17px;
+  letter-spacing: -0.03px;
+}
+.section__three__disple {
+  display: flex;
+}
+.section__three__disple__txt {
+  margin-left: 12px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__three__disple__txttwo {
+  margin-left: 17px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__three__disple__txtthree {
+  margin-left: 17px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__three__disple__txtfour {
+  margin-left: 16px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__three__disple__txtfive {
+  margin-left: 15px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__three__disple__txtsix {
+  margin-left: 18px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__three__backimg {
+  margin-top: 17px;
+  width: 375px;
+  height: 195px;
+  background-image: url("../images/faster.svg");
+}
+.section__three__backimg__dispdf {
+  padding-top: 200px;
+  display: flex;
+}
+.section__three__backimg__dispdf__sdf__zvan {
+  padding-top: 20px;
+  padding-left: 242px;
+}
+.section__three__backimg__dispdf__sdf__txt {
+  padding-left: 227px;
+  padding-top: 7px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.13px;
+  font-weight: 400;
+  line-height: 8.32px;
+  letter-spacing: -0.03px;
+}
+.section__three__backimg__dispdf__asd__zvantwo {
+  padding-top: 23px;
+  padding-left: 56px;
+}
+.section__three__backimg__dispdf__asd__txt {
+  padding-left: 50px;
+  padding-top: 10px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.13px;
+  font-weight: 400;
+  line-height: 8.32px;
+  letter-spacing: -0.03px;
+}
+.section__footer {
+  margin-top: 73px;
+}
+.section__footer__sea {
+  margin-left: 12px;
+  margin-top: 13px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 400;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__footer__cast {
+  margin-top: 13px;
+  margin-left: 12px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 18.66px;
+  font-weight: 700;
+  line-height: 13.95px;
+  letter-spacing: -0.05px;
+}
+.section__footer__lorem {
+  margin-top: 12px;
+  margin-left: 12px;
+  color: rgba(255, 255, 255, 0.83);
+  font-family: SF Pro Display;
+  font-size: 11.14px;
+  font-weight: 400;
+  line-height: 14.17px;
+  letter-spacing: -0.03px;
+}
+.section__footer__disple {
+  display: flex;
+}
+.section__footer__disple__txt {
+  margin-left: 12px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__footer__disple__txttwo {
+  margin-left: 17px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__footer__disple__txtthree {
+  margin-left: 17px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__footer__disple__txtfour {
+  margin-left: 16px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__footer__disple__txtfive {
+  margin-left: 15px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}
+.section__footer__disple__txtsix {
+  margin-left: 18px;
+  margin-top: 16px;
+  color: rgb(255, 255, 255);
+  font-family: SF Pro Display;
+  font-size: 11.4px;
+  font-weight: 600;
+  line-height: 8.52px;
+  letter-spacing: -0.03px;
+}/*# sourceMappingURL=qwer.css.map */
