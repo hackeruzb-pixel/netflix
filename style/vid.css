@@ -10,40 +10,6 @@
   padding: 0 15px;
 }
 
-.netr {
-  width: 375px;
-  height: 736px;
-  background: rgb(0, 0, 0);
-}
-.netr__img {
-  margin-top: 288px;
-  margin-left: 84px;
-}
-.netr__display {
-  display: flex;
-}
-.netr__display__time {
-  padding-left: 21px;
-  padding-top: 13px;
-  color: rgb(255, 255, 255);
-  font-family: SF Pro Text;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-}
-.netr__display__connect {
-  padding-left: 219px;
-  padding-top: 17px;
-}
-.netr__display__wifi {
-  padding-left: 5px;
-  padding-top: 17px;
-}
-.netr__display__battery {
-  padding-top: 17px;
-  padding-left: 5px;
-}
-
 .header {
   width: 375px;
   height: 44px;
@@ -85,12 +51,12 @@
   width: 20px;
   height: 20px;
 }
-.section__iframe {
+.section__img {
   width: 372px;
   height: 100vh;
 }
 .section__ert {
-  margin-top: -5px;
+  margin-top: -250px;
   width: 375px;
   height: 31px;
   background: rgb(0, 0, 0);
