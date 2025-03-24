@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/vid.css" />
+    <link rel="icon" href="./images/icon.png" />
+    <title>Netflix</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="header__display">
+            <div class="header__display__time"> 
+              <script>
+              function vaqtYangilash() {
+                  document.getElementById("vaqt").innerText = new Date().toLocaleTimeString();
+              }
+              setInterval(vaqtYangilash, 1000);
+          </script>
+      </head>
+      <body onload="vaqtYangilash()">
+          <span id="vaqt"></span></div>
+            <img
+              src="./images/connection.svg"
+              alt=""
+              class="header__display__connect"
+            />
+            <img src="./images/Wifi.svg" alt="" class="header__display__wifi" />
+            <img
+              src="./images/Battery.svg"
+              alt=""
+              class="header__display__battery"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+       <div class="container">
+        <div class="section">
+            <a href="index.html"
+              ><img src="./images/strel.svg" alt="" class="section__icon"
+            /></a>
+            <div class="section__img">
+              <video width="372" height="650" controls muted>
+                <source src="./video/fronend.mp4" type="video/mp4">
+            </video></div>
+
+            </div>
+           </div>
+   
+      </section>
+    </main>
+  </body>
+</html>
