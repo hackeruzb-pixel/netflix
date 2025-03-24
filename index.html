@@ -12,7 +12,17 @@
       <div class="container">
         <div class="header">
           <div class="header__display">
-            <p class="header__display__time">9 : 41</p>
+            <!-- <p class="header__display__time">9 : 41</p> -->
+             <div class="header__display__time"> 
+              <script>
+              function vaqtYangilash() {
+                  document.getElementById("vaqt").innerText = new Date().toLocaleTimeString();
+              }
+              setInterval(vaqtYangilash, 1000);
+          </script>
+      </head>
+      <body onload="vaqtYangilash()">
+          <span id="vaqt"></span></div>
             <img
               src="./images/connection.svg"
               alt=""
